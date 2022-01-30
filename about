@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang=’en’>
+
+<head>
+  <meta charset=’utf-8’>
+  <title>   About   </title>
+  <style>
+      div{
+          background-color:black;
+          
+
+          
+      }
+      .img-container {
+          color:white;
+      }
+
+      p{
+          text-align: center;
+      }
+  </style>
+</head>
+
+<body>
+    <div style='background-color:black;' class="img-container">
+    <p style="color:blue; font-size:20px"> 
+        Paris is the capital city of France.
+
+    The French historic, political and economic capital, with a population of only 2.5 million is located in the northern part of France.
+
+    One of the most beautiful cities in the world. Home to historical monuments such as Notre Dame, the Eiffel tower (320m), Bastille, Louvre and many more. Much of the city was re-designed by Haussmann in the 19th century.
+
+    Paris has a population of more than 2.5 million people, and the city is divided into 20 "arrondissements" (districts) which are numbered 1 to 20.
+
+    The river Seine divides the city into the Rive Gauche on the south and the Rive Droite on the north banks of the river. The river is still very busy with commercial barges transporting cargo in and out, there is also much
+    The historical name for the city is Parisii and given by the Gauls, however the Romans arrived in 52 B.C. and changed the name to Lutetia   
+        
+    </p>
+    
+    <p></p>
+   
+
+
+
+</body>
+
+
+</html>
+
