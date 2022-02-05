@@ -29,6 +29,44 @@
       p{
           text-align: center;
       }
+      ul {
+        border: 7px solid aqua;
+        margin: 4;
+        padding: 66;
+
+      }
+
+      .div1{
+      border: 0.3em solid blue;
+      padding: 1em;
+      background-color:red
+      }
+      .class1{
+      display:flex;
+      flex-wrap:wrap; 
+      }
+      div{
+        border: 0.6em ;
+        padding: 1em;
+
+      }
+
+      .nav{
+          background-color: grey;
+      }
+
+      .nav div {
+        padding: 20px
+      }
+
+      .nav a {
+        text-decoration: none;
+        color: red;
+      }
+
+      .nav div:hover {
+        background-color:yellow;
+      }
   </style>
 </head>
 
@@ -36,16 +74,25 @@
     
     
     <div style='background-color:black;' class="img-container">
-        <ul>
-            <p>
+        <ul class="nav div:hover">
+            <div class="div1">
+                <p>
 
-                <li><a href="index.html"> Home </a></li>
-            </p>
+                    <li><a href="index.html" class="nav div:hover"> Home </a></li>
+                </p>
+            </div>
             
         </ul>
 
         <p>
-            <li><a href="about.html"> About </a></li>
+            <ul class="nav div:hover">
+                <div class="div1">
+
+                    <li><a href="about.html" class="nav div:hover"> About </a></li>
+                 </div>
+            </ul>
+            
+            
         </p>
         <p style="color:palegoldenrod; font-size:20px"> 
         Paris is the capital city of France.
