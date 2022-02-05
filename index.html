@@ -20,21 +20,32 @@
       }
 
       .nav{
-          background-color: grey;
+          background-color: red;
       }
 
       .nav div {
-        padding: 20px
+        padding: 0px
       }
 
       .nav a {
         text-decoration: none;
-        color: red;
+        /* color: blue; */
       }
 
+      
+      
       .nav div:hover {
+        text-decoration: none;
+
         background-color:yellow;
+        
+        /* Make animation */
+        transition-duration:1s
+        
+        
       }
+
+      
 
       ul {
         border: 7px solid aqua;
@@ -44,14 +55,26 @@
       }
 
       .div1{
-      border: 0.3em solid blue;
+      border: 0.3em solid orange;
       padding: 1em;
       background-color:red
       }
+
+      .div2{
+      border: 0.3em solid green;
+      padding: 1em;
+      background-color:blue
+      
+      }
+
+
       .class1{
       display:flex;
       flex-wrap:wrap; 
     }
+
+      
+
 
     </style>
   </head>
@@ -78,7 +101,7 @@
       <div class="div1">
         <p>
 
-          <li><a href="index.html" class="nav div:hover"> Home </a></li>
+          <li><a href="home.html" class="nav div:hover"> Home </a></li>
         </p>
       </div>
     </ul>
@@ -98,16 +121,26 @@
     <p>
       It’s believed that Paris only has one stop sign in the entire city.
     </p>
-    <p>  <a href="https://worldstrides.com/blog/2016/07/10-interesting-facts-paris/" target="_blank" target="_blank">
-        information source
-      </a>
-    </p>
+   
+
+    <ul class="nav div:hover2">
+      <div class="div2">
+        
+        <p>
+          <li><a href="https://worldstrides.com/blog/2016/07/10-interesting-facts-paris/" target="_blank" target="_blank" class="nav div:hover2"> Information </a></li>
+        </p>
+          
+      </div>
+      
+    </ul>
     
     <span>
     <p style='text-align: center;'>
         <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/1c/9c.jpg" alt="Paris picture" class="center">
     </p>
     </span>
+
+    
 
     <h3>
       Top five Paris attractions
@@ -172,8 +205,18 @@
       </li>
     </ul>
     
-   <P> <a href="https://www.google.com/maps/place/Paris,+France/@48.5717641,3.8820239,8z/data=!4m5!3m4!1s0x47e66e1f06e2b70f:0x40b82c3688c9460!8m2!3d48.856614!4d2.3522219"> Map of Paris</a> </P>
    
+   
+   <ul class="nav div:hover2">
+    <div class="div2">
+      
+      <p>
+        <li><a href="https://www.google.com/maps/place/Paris,+France/@48.5717641,3.8820239,8z/data=!4m5!3m4!1s0x47e66e1f06e2b70f:0x40b82c3688c9460!8m2!3d48.856614!4d2.3522219" class="nav div:hover2"> Map </a></li>
+      </p>
+        
+    </div>
+    
+  </ul>
     <p>
         <h2>
             History
